@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	margin-left: 10px;
+}
+
+
+#box{
+	width: 300px;
+	height:300px;
+	/*background: blue;*/
+	background-image: url(../img/car.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+	/*border: solid 1px black;
+	border-radius: 5px;*/
+	color: white;
+	transition: 0.5s;
+	position: absolute;
+	/*animation-name: go;*/
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+
+
+	
+}
+
+@keyframes go {
+  0%   {top: 0px;
+  		left: 0px;
+  }
+  50%  {top: 0px;
+  		left: 1000px;
+  }
+  100% {top: 200px;
+  		left: -800px;
+  }
+}
+
+
